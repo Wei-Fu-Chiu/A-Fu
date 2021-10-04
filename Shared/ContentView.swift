@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    let cat: String = "(cat)"
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, world!(cat😺)" + cat)
             .padding()
+        
+        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+            /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+        }
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +27,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
