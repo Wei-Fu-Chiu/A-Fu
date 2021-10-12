@@ -12,8 +12,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func Button(_ sender: Any) {
+    }
+    
+    @IBAction func DeclaringContantsText(_ sender: Any) {
+        
+    }
+    
+    
 }
 

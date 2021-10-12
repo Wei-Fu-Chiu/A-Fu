@@ -36,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144E1C75270AED2D0099B8FC /* 02_BasicOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 02_BasicOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1489E554270BF3AB00701138 /* 03_StringsAndCharacters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 03_StringsAndCharacters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1489E555270C37F700701138 /* 04_CollectionTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 04_CollectionTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1489E556270D2C8C00701138 /* 05_ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 05_ControlFlow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1489E557270E847700701138 /* 06_Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 06_Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1489E558270ED47A00701138 /* 20211007.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 20211007.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1489E55927101AD000701138 /* Extention.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extention.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1489E55A2710232700701138 /* 07_Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 07_Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		149473D327071A49004954B9 /* swift_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149473D627071A49004954B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		149473D827071A49004954B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 		149473F327071A4A004954B9 /* swift_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		149473F727071A4A004954B9 /* swift_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_testUITests.swift; sourceTree = "<group>"; };
 		149473F927071A4A004954B9 /* swift_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14C295FD270AC6AB00E50653 /* 01_TheBasics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 01_TheBasics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,10 @@
 		149473D527071A49004954B9 /* swift_test */ = {
 			isa = PBXGroup;
 			children = (
+				14C295FC270AC61700E50653 /* TestPlayground */,
+				14C295FB270AB3AD00E50653 /* Model */,
+				14C295FA270AB39900E50653 /* View */,
+				14C295F9270AB38100E50653 /* Controller */,
 				149473D627071A49004954B9 /* AppDelegate.swift */,
 				149473D827071A49004954B9 /* SceneDelegate.swift */,
 				149473DA27071A49004954B9 /* ViewController.swift */,
@@ -125,6 +138,43 @@
 				149473F927071A4A004954B9 /* swift_testUITestsLaunchTests.swift */,
 			);
 			path = swift_testUITests;
+			sourceTree = "<group>";
+		};
+		14C295F9270AB38100E50653 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14C295FA270AB39900E50653 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14C295FB270AB3AD00E50653 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14C295FC270AC61700E50653 /* TestPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				14C295FD270AC6AB00E50653 /* 01_TheBasics.playground */,
+				144E1C75270AED2D0099B8FC /* 02_BasicOperators.playground */,
+				1489E554270BF3AB00701138 /* 03_StringsAndCharacters.playground */,
+				1489E555270C37F700701138 /* 04_CollectionTypes.playground */,
+				1489E556270D2C8C00701138 /* 05_ControlFlow.playground */,
+				1489E557270E847700701138 /* 06_Functions.playground */,
+				1489E558270ED47A00701138 /* 20211007.playground */,
+				1489E55927101AD000701138 /* Extention.playground */,
+				1489E55A2710232700701138 /* 07_Closures.playground */,
+			);
+			path = TestPlayground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
