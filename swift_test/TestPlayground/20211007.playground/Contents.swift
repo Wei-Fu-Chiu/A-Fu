@@ -29,7 +29,7 @@ if (nilString?.isEmpty == nil) {
 // String
 // startIndex is the index of the first character
 // endIndex is the index after the last character
-let indexString: String = "Test index!"
+let indexString: String = "Test!"
 indexString[indexString.startIndex]
 indexString[indexString.index(before: indexString.endIndex)]
 indexString[indexString.startIndex..<indexString.endIndex]

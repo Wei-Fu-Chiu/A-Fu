@@ -87,7 +87,6 @@ func timesCalculator(_ a: Int, _ b: Int) -> Int {
     return a * b
 }
 
-
 var testCalculator: (Int, Int) -> Int = plusCalculator
 print("Plus func: \(testCalculator(5, 6))")
 testCalculator = timesCalculator
@@ -100,3 +99,11 @@ func chooseFunction(_ chooseCal: Bool) -> (Int, Int) -> Int {
 }
 testCalculator = chooseFunction(true)
 currentValue = testCalculator(currentValue, 10)
+
+
+func test(_ a: Double..., b: String...) {
+    print(a)
+    print(b)
+}
+
+test(1,3,5, b:"test2","test3")

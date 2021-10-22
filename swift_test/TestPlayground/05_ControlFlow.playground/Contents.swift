@@ -156,3 +156,5 @@ func toGym(info: [String : String]) {
 toGym(info: ["name": "WeiFu"])
 toGym(info: ["location": "Taiwan"])
 toGym(info: ["name": "WeiFu", "location": "Taiwan"])
+
+// fallthrough likes contuine
