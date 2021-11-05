@@ -43,3 +43,16 @@ print("The ace of spades: \(theAceOfSpades.description)")
 
 // 引用嵌套類型
 let heartsSymbol = BlackjackCard.Suit.hearts.rawValue
+
+// 類巢狀
+struct Testclass {
+    class TestClass2 {
+        var number = 10
+    }
+    
+    
+    let testClass2 = TestClass2()
+    lazy var testNum = testClass2.number
+}
+var testClass = Testclass()
+testClass.testNum
